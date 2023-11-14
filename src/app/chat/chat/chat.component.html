@@ -1,0 +1,70 @@
+
+<app-chat-header></app-chat-header>
+    <div class="container py-5">
+  
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-6">
+          <swiper-container #swiper speed="500" [loop]="false">
+          <swiper-slide  *ngFor="let img of Images">
+            <img  src="{{img.src}}" />
+          </swiper-slide>
+          </swiper-container> 
+          <div class="card" id="chat2">
+            <div class="card-header d-flex justify-content-between align-items-center p-3">
+              <h5 class="mb-0">Chat</h5>
+              <div class="d-flex justify-content-start align-items-center">
+                <a href="#!">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-2.webp" alt="avatar"
+                    class="img-fluid rounded-circle me-1" width="35">
+                </a>
+                <a href="#!">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-3.webp" alt="avatar"
+                    class="img-fluid rounded-circle me-1" width="35">
+                </a>
+                <a href="#!">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-4.webp" alt="avatar"
+                    class="img-fluid rounded-circle me-1" width="35">
+                </a>
+                <a href="#!">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-5.webp" alt="avatar"
+                    class="img-fluid rounded-circle me-3" width="35">
+                </a>
+                <button type="button" class="btn btn-outline-dark btn-sm btn-floating">
+                  <i class="fas fa-plus">6</i>
+                </button>
+              </div>
+              <!-- <button type="button" class="btn btn-primary btn-sm">Let's Chat
+                App</button> -->
+            </div>
+            <div class="card-body"  style="position: relative; height: 400px; overflow-y: scroll;">
+  
+              <div class="d-flex flex-row justify-content-start">
+                <!-- <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3-bg.webp"
+                  alt="avatar 1" style="width: 45px; height: 100%;"> -->
+                <div>
+                  <p class="small p-2 me-2 mb-1 text-white rounded-3 bg-primary">Hello how are you</p>
+                  <p class="small ms-3 mb-3 rounded-3 text-muted">Anshu &nbsp;2 pm</p>
+                </div>
+              </div>
+  
+              <!-- <div class="divider d-flex align-items-center mb-4">
+                <p class="text-center mx-3 mb-0" style="color: #a2aab7;">Today</p>
+              </div> -->
+  
+     
+            </div>
+            <div class="card-footer input-group text-muted d-flex justify-content-start align-items-center p-3">
+              <!-- <a class="ms-3 text-muted" href="#!"><i class="fa fa-smile-o"></i></a> -->
+              <input type="text"  name="msg" class="form-control form-control-lg" id="exampleFormControlInput1"
+                placeholder="Type message">
+              <!-- <a class="ms-1 text-muted" href="#!"><i class="fa fa-paperclip"></i></a> -->
+              <span class="input-group-text" id="basic-addon2"><i class="fa fa-paper-plane"></i></span>
+            
+            </div>
+          </div>
+  
+        </div>
+      </div>
+  
+    </div>
+

@@ -3,7 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomePageComponent } from './home-page/home-page.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
-
+import { ChatComponent } from './chat/chat.component';
+import { CreateLinkComponent } from './create-link/create-link.component';
 const routes: Routes = [
   {
     path: 'login', component: LoginComponent
@@ -13,6 +14,11 @@ const routes: Routes = [
   },
   {
     path: 'home-page', component: HomePageComponent
+  },
+  {
+    path: 'chat-link', component: CreateLinkComponent
+  },{
+    path: 'chat', component: ChatComponent
   }
 ];
 
