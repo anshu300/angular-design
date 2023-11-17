@@ -1,0 +1,10 @@
+.back{background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);}
+.noit{font-size: 20px;}
+.icon2{position: relative;top: -11px;left: -8px;font-size: 10px;}
+.fa-envelope:before {content: "\f0e0";color: #fff;}
+.b2{margin-left: 65px;position: relative;top: -13px;}
+.b2-img{position: relative;top: 12px;}
+.min{float: right;margin-top: 5px;}
+.chat-user-img.online .user-status {background-color: #06d6a0;}
+.chat-user-img .user-status {width: 10px;height: 10px;background-color: #adb5bd;border-radius: 50%;border: 2px solid var(--bs-white);position: absolute;left: 44px;bottom: 201px;}
+.fa-bell:before {content: "\f0f3";color: #fff;}
