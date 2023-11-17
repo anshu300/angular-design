@@ -28,8 +28,14 @@
                         href="javascript:void(0)">Login</a>
                 </li>
 
+
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="javascript:void(0)">Score
+                    <a class="nav-link active" aria-current="page"
+                        href="javascript:void(0)" [routerLink]="['/education/edu-register']">Register</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" [routerLink]="['/education/score-card']" href="javascript:void(0)">Score
                         card</a>
                 </li>
                 <li class="nav-item dropdown">
