@@ -1,7 +1,10 @@
-.bg-image{
+/* .bg-image{
     background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/nature/012.webp');
     height: 50vh;
-}
-/* .mask{
-    background-color: rgba(0, 0, 0, 0.6);
 } */
+.back{background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);}   
+.btn1{border-radius: 31px;background: transparent;border: 2px solid white !important;min-width: 175px;FONT-WEIGHT: 700;}
+.btn1:hover{background: transparent;border-radius: 34px;border: 1px solid #fff;background-color: #fff; color:#ee7724;}
+.text-banner{color: #fff;}
+.txt{font-size: 20px;color: #fff;font-weight: 700;}
+#background-p{padding-top: 100px;padding-bottom: 150px;}
