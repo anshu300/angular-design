@@ -1,11 +1,120 @@
 <app-stock-header></app-stock-header>
 
+
 <section>
-    <div class="bg-image">
-        <div class="mask">
-            <div class="d-flex justify-content-center align-items-center">
-                <h1 class="text-white mb-0">Page title</h1>
-            </div>
-        </div>
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+
+                <tr>
+                    <th scope="col">Date </th>
+                    <th scope="col" ata-bs-toggle="tooltip"
+                        data-bs-placement="top"
+                        title="TOTAL TRADED QUANTITY">T V</th>
+                    <th scope="col">NFT</th>
+                    <th scope="col">D QTY</th>
+                    <th scope="col">% D</th>
+                    <th scope="col">TBQ</th>
+                    <th scope="col">TSQ</th>
+                    <th scope="col">AB</th>
+                    <th scope="col">AC</th>
+                    <th scope="col">Change</th>
+                    <th scope="col">% Change</th>
+                    <th scope="col">CP</th>
+                    <th scope="col">OPEN</th>
+                    <th scope="col">HIGH</th>
+                    <th scope="col">LOW</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="pointer">
+                    <td>Dec 20,2013 <span class="btn btn-primary btn-sm">Add News</span></td>
+                    <td>12,345674<span class="text-success">News</span></td>
+                    <!-- <td>{{item?.turnoverLacs}}</td> -->
+                    <td>12,345674</td>
+                    <td>12,345674</td>
+                    <td>50</td>
+                    <td>45354</td>
+                    <td>234234</td>
+                    <td>234234</td>
+                    <td>23423</td>
+                    <td
+                        [ngClass]="'text-success'">34</td>
+                
+                        <td>343</td>
+                    <td>4234</td>
+                    <td>3244</td>
+                    <td>234</td>
+                    <td>234</td>
+                </tr>
+                <tr class="pointer">
+                    <td>Dec 20,2013</td>
+                    <td>12,345674<span class="text-success">News</span></td>
+                    <!-- <td>{{item?.turnoverLacs}}</td> -->
+                    <td>12,345674</td>
+                    <td>12,345674</td>
+                    <td>50</td>
+                    <td>45354</td>
+                    <td>234234</td>
+                    <td>234234</td>
+                    <td>23423</td>
+                    <td
+                        [ngClass]="'text-success'">343</td>
+                
+                        <td>343</td>
+                    <td>4234</td>
+                    <td>3244</td>
+                    <td>234</td>
+                    <td>234</td>
+                </tr>
+                <tr class="pointer">
+                    <td>Dec 20,2013</td>
+                    <td>12,345674<span class="text-success">News</span></td>
+                    <!-- <td>{{item?.turnoverLacs}}</td> -->
+                    <td>12,345674</td>
+                    <td>12,345674</td>
+                    <td>50</td>
+                    <td>45354</td>
+                    <td>234234</td>
+                    <td>234234</td>
+                    <td>23423</td>
+                    <td
+                        [ngClass]="'text-success'">454</td>
+                
+                        <td>343</td>
+                    <td>4234</td>
+                    <td>3244</td>
+                    <td>234</td>
+                    <td>234</td>
+                </tr>
+                <tr>
+                    <th scope="col">Date</th>
+                    <th scope="col" ata-bs-toggle="tooltip"
+                        data-bs-placement="top"
+                        title="TOTAL TRADED QUANTITY">Traded Volume</th>
+                    <th scope="col">NO OF TRADES</th>
+                    <th scope="col">DELIVERABLE QTY</th>
+                    <th scope="col">% DELIVERABLE</th>
+                    <th scope="col">Total buy QTY</th>
+                    <th scope="col">Total Sell QTY</th>
+                    <th scope="col">Auto Buy</th>
+                    <th scope="col">Auto Cell</th>
+                    <th scope="col">Change</th>
+                    <th scope="col">% Change</th>
+                    <th scope="col">Close price</th>
+                    <th scope="col">OPEN</th>
+                    <th scope="col">HIGH</th>
+                    <th scope="col">LOW</th>
+                </tr>
+            </tbody>
+        </table>
+        
     </div>
 </section>
+
+<div class="container">
+    <div>
+        <canvas id="canvas">{{chart}}</canvas>
+      </div>
+</div>
+

@@ -23,14 +23,14 @@
                             class="badge rounded-pill badge-notification bg-danger">1</span>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page"
-                        href="javascript:void(0)">Login</a>
-                </li>
+               
 
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="javascript:void(0)">Score
-                        card</a>
+                    <a class="nav-link text-white"  [routerLink]="['/stock-market/landing']" href="javascript:void(0)">Landing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" [routerLink]="['/stock-market/home']" aria-current="page"
+                        href="javascript:void(0)">Home</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="navbarDropdown"
