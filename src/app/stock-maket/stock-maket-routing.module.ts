@@ -4,6 +4,7 @@ import { StockHomeComponent } from './stock-home/stock-home.component';
 import { StockLoginComponent } from './stock-login/stock-login.component';
 import { StockRegisterComponent } from './stock-register/stock-register.component';
 import { LandingComponent } from './landing/landing.component';
+
 const routes: Routes = [
   {
     path: 'home', component: StockHomeComponent
